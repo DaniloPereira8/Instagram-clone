@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div class="imagens">
+        <img class="img-celular" src="./img/celular.png" alt="celular">
+        <img class="img-insta" src="./img/insta1.png" alt="instagram1">
+        <img class="img-insta img-2" src="./img/insta2.png" alt="instagram2">
+    </div>
+
+    <div class="container">
+
+        <div class="linha-1">
+
+            <div class="img-logo">
+                <img src="./img/insta-logo.png" alt="logo">
+            </div>
+            <input placeholder="Telefone, nome de usuário ou email" type="text">
+            <input placeholder="Senha" type="password">
+
+            <button>Entrar</button>
+
+            <div class="generator">
+
+                <div class="linhas-do-ou"></div>
+                <div class="ou">OU</div>
+                <div class="linhas-do-ou"></div>
+            </div>
+
+             <a id="facebook" href=""><i class='bx bxl-facebook-square'></i>Entrar com facebook</a>
+            <a class="esqueceu-senha" href="#">Esqueceu a senha ?</a>
+        </div>
+
+
+        <div class="container-2">
+            <div class="paragrafh">
+                <p>Não tem uma conta?</p>
+            </div>
+            <a class="cadastre-se" href="#">Cadastre-se</a>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+<script>
+    let image = document.querySelector('.img-2')
+
+    setInterval(() => {
+
+
+        if (image.style.opacity == 0) {
+            image.style.opacity = 1
+        } else {
+            image.style.opacity = 0
+        }
+
+
+    }, 3000)
+
+
+  //console.log(image)
+
+
+</script>
+
+</html>
