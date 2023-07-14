@@ -137,3 +137,37 @@ button{
     line-height: 18px;
 
 }
+
+
+
+@media (max-width: 870px){
+    .container{
+        width: 400px;
+    }
+
+    .container-2{
+        width: 340px;
+    }
+}
+
+@media (max-width: 830px){
+    .imagens{
+        display: none;
+    }
+}
+
+@media (max-width: 799px){
+    .container{
+        display: flex;flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+        margin: 0 10px;
+    }
+
+    .container-2{
+        padding: 10px 10px;
+        margin: 10px 10px;
+    }
+}
